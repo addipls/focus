@@ -83,6 +83,15 @@ class _LoginScreenState extends State<LoginScreen> {
                     ],
                   ),
                 ),
+              ),  
+              SizedBox(
+                width: width * .75,
+                child: ElevatedButton.icon(
+                  icon: Icon(Icons.app_registration_rounded),
+                  label: Text('No account? Register now!'),
+                  onPressed: () {},
+                  style: ButtonStyle(),
+                  )
               ),
             ],
           ),
