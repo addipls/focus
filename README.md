@@ -1,16 +1,8 @@
-# focus
+# FOCUS!
 
-A new Flutter project.
+## Description
+FOCUS! is an application to help you focus while performing a task.  The app is not intended for people with minor issues staying on task.  FOCUS! is for those of us who often end up off-task, browsing social media, etc. while we have things to do.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Planned Features
+- Authentication.  Login & Signup, and have your configs stored in the cloud for you to use on any device.  
+- Push notification "spam." 
