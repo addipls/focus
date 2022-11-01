@@ -10,4 +10,4 @@ This is mostly a project to get familiar with Flutter, however it aims to solve 
 - Push notification "spam." 
 
 ## Screenshots (Will be added as progress is made):
-<img src="metadata/AppScreenshot1.png" width=20% height=20%>
+<img src="metadata/AppScreenshot1.png" width=20% height=20%> <img src="metadata/AppScreenshot2.png" width=20% height=20%> 
