@@ -20,10 +20,69 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: width,
-                height: height * .5,
+              SizedBox(
+                width: width * .95,
+                height: height * .4,
                 child: Image.asset("assets/focuslogo.png"),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8),
+                child: 
+                  SizedBox(
+                    width: width * .9,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Login',style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
+                      ],
+                    ),
+                  ),
+              ),
+              Divider(thickness: 2, height: 2, color: Colors.deepPurple, indent: width - (width * .95), endIndent: width - (width * .95),),
+              SizedBox(height: 10, width: width,),
+              SizedBox(
+                width: width * .9,
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Email',
+                    suffixIcon: Icon(Icons.email),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 20.0,),
+              SizedBox(
+                width: width * .9,
+                child: TextField(
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    hintText: 'Password',
+                    suffixIcon: Icon(Icons.visibility_off),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 30.0,),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: SizedBox(
+                  width: width * .9,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text('Forget password?',style: TextStyle(fontSize: 12.0),),
+                      ElevatedButton(
+                        child: Text('Login'),
+                        style: ButtonStyle(),
+                        onPressed: (){},
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ],
           ),
