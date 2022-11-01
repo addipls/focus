@@ -6,3 +6,6 @@ FOCUS! is an application to help you focus while performing a task.  The app is 
 ## Planned Features
 - Authentication.  Login & Signup, and have your configs stored in the cloud for you to use on any device.  
 - Push notification "spam." 
+
+## Screenshots (Will be added as progress is made):
+[Login Page of FOCUS! application](metadata/AppScreenshot1.png)
