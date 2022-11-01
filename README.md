@@ -8,4 +8,4 @@ FOCUS! is an application to help you focus while performing a task.  The app is 
 - Push notification "spam." 
 
 ## Screenshots (Will be added as progress is made):
-![Login Page of FOCUS! application](metadata/AppScreenshot1.png)
+<img src="metadata/AppScreenshot1.png" width=20% height=20%>
