@@ -6,7 +6,7 @@ FOCUS! is an application to help you focus while performing a task.  The app is 
 This is mostly a project to get familiar with Flutter, however it aims to solve a problem I personally experience.  I struggle with short term memory issues, and often find myself getting distracted & completely forgetting I have something I should be doing.
 
 ## Planned Features
-- Authentication.  Login & Signup, and have your configs stored in the cloud for you to use on any device.  
+- Authentication.  Login & Signup, and have your configs stored in the cloud for you to use on any device.  Uses Pocketbase for self-host
 - Push notification "spam." 
 
 ## Screenshots (Will be added as progress is made):
